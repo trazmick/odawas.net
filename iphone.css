@@ -1,0 +1,114 @@
+html, 
+body {
+	background-color:#8d5f30;
+	background-image:none;
+	margin:0;
+	padding:0;
+	color:#000;
+	font-family: helvetica, sans-serif;
+	font-size: 16px;
+}
+
+img, iframe, object {max-width: 100%;}
+
+a, a:visited  {
+	color: #999;
+	text-decoration:none;
+}
+
+#section {
+	width:480px;
+	margin:0 auto;
+}
+
+#header {
+	padding:5px 10px;
+}
+
+h1 {
+	font-family: futura, helvetica, sans-serif;
+	margin:0;
+	padding-left:15px;
+	text-align:right;
+	color: rgba(255, 255, 255, 0.7);
+	-webkit-text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+	-moz-text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+	-o-text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+}
+
+h3 {
+	margin-left:15px;
+}
+
+#nav {
+	padding: 10px 10px 10px 0;
+}
+#nav ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#nav li {
+	display:inline;
+	padding: 0;
+}
+
+#nav li a {
+	font-family: futura, helvetica, sans-serif;
+	padding: 5px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: rgba(255, 255, 255, 0.5);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#nav li a:hover,
+#nav li a:focus {
+	color:#fff;
+	background: rgba(255, 255, 255, 0.05);
+}
+
+#article {
+	width:480px;
+	background:#fff;
+	opacity:0.7; 
+	filter:alpha(opacity=70);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#soundcloud {
+	display:none;
+}
+
+.tumblr_title {font-weight:bold; font-size:18px; padding:2px 0 0 0; color:#555; text-shadow: 0 1px 1px rgba(0, 0, 0, .5); font-family: futura, helvetica, sans-serif;}
+.tumblr_posts {padding: 15px;}
+.tumblr_body {padding: 0 15px 20px 0;}
+.tumblr_body a {padding-left:0px; padding-bottom:7px; display:inline;}
+.tumblr_body p {padding-top:5px; margin:0;}
+.tumblr_caption {padding-left:0px; padding-top:5px;}
+.tumblr_caption a {padding:0px; display:inline;}
+.tumblr_video {padding-bottom:0px; padding-left:0px;}
+.tumblr_audio_player {padding-bottom:0px; padding-left:0px;}
+.audio_player {background:#999; width:210px; height:26px; padding:10px;}
+ol.tumblr_posts {margin:0;}
+ol.tumblr_posts li {margin-bottom:15px; border-bottom: 1px solid #D4D4D4; list-style-type: none;}
+.tumblr_description {padding: 5px 0 20px 0px;}
+
+#footer {
+	font-size:7px;
+	clear:both;
+	padding:5px 10px;
+	float:right;
+	color: rgba(255, 255, 255, 0.7);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+}
+
+* html #footer {
+	height:1px;
+}
